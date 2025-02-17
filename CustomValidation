@@ -1,0 +1,3 @@
+RuleFor(user => user.Age)
+    .Must(age => age >= 18)
+    .WithMessage("User must be at least 18 years old");
